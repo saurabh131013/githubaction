@@ -7,8 +7,8 @@ on:
 job:
   build:
     runs-on: ubuntu-latest
-       - uses: actions/checkout@v3
-       - name: Greet user
+      - uses: actions/checkout@v3
+      - name: Greet user
         run: echo welcome to Actions
     
   
